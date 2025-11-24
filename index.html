@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience prompt velocity with the next-generation AI Studio. Built for developers in the agent-first era.">
+    <title>Pixartual Studio - PixartualAI</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Particle Background -->
+    <div class="particle-bg"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid px-4 px-lg-5">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                <img src="./assets/img/logo/pu-black.png" alt="Logo" width="30" height="30">
+                <span>PixartualAI</span>
+            </a>
+
+            <input type="checkbox" id="navbar-toggle" class="d-none">
+            <label for="navbar-toggle" class="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </label>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Use Cases</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+                </ul>
+                <a href="#" class="btn btn-dark btn-download d-none d-lg-inline-block">Early Access</a>
+                <div class="d-lg-none mt-3 text-center">
+                    <a href="#" class="btn btn-dark btn-download w-100">Early Access</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section d-flex align-items-center justify-content-center text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="hero-logo mb-4">
+                        <img src="./assets/img/logo/pu-black.png" alt="Logo" width="48" height="48">
+                        <span class="d-block mt-2 text-muted">Pixartual Studio</span>
+                    </div>
+                    <h1 class="display-1 fw-bold mb-4">Experience intelligence with Pixartual’s next-generation AI model, Atlas.
+                    </h1>
+                    <div class="d-flex justify-content-center gap-3 mt-5 flex-wrap">
+                        <a href="#" class="btn btn-dark btn-lg btn-primary-cta d-flex align-items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-windows" viewBox="0 0 16 16">
+                                <path
+                                    d="M6.555 1.375 0 2.237v5.45h6.555V1.375zM0 13.795l6.555.933V7.906H0v5.889zm7.278-5.4.026 5.933 8.696 1.273V8.006h-8.722zm8.696-7.004L7.278 0v7.506h8.696V.991z" />
+                            </svg> Download for Windows
+                        </a>
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-secondary-cta">Explore use cases</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee Icons Section -->
+    <section class="platform-section py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-8">
+                    <h2 class="display-6 fw-normal lh-base">Pixartual Atlas is our autonomous AI engine, advancing development into the agent-first era.</h2>
+                </div>
+            </div>
+            <div class="icon-wave-container">
+                <div class="d-flex justify-content-center align-items-center gap-4 icon-wave flex-wrap">
+                    <div class="icon-circle"><i class="bi bi-terminal"></i></div>
+                    <div class="icon-circle"><i class="bi bi-file-earmark-code"></i></div>
+                    <div class="icon-circle"><i class="bi bi-arrow-repeat"></i></div>
+                    <div class="icon-circle"><i class="bi bi-pen"></i></div>
+                    <div class="icon-circle"><i class="bi bi-box-seam"></i></div>
+                    <div class="icon-circle"><i class="bi bi-code-slash"></i></div>
+                    <div class="icon-circle"><i class="bi bi-grid"></i></div>
+                    <div class="icon-circle"><i class="bi bi-display"></i></div>
+                    <div class="icon-circle"><i class="bi bi-diagram-2"></i></div>
+                    <div class="icon-circle"><i class="bi bi-check-circle"></i></div>
+                    <div class="icon-circle"><i class="bi bi-arrows-move"></i></div>
+                    <div class="icon-circle"><i class="bi bi-folder"></i></div>
+                    <div class="icon-circle"><i class="bi bi-search"></i></div>
+                    <div class="icon-circle"><i class="bi bi-share"></i></div>
+                    <div class="icon-circle"><i class="bi bi-braces"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section with YouTube Embed -->
+    <section class="video-section py-5 mb-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="video-container-wrapper position-relative">
+                        <div class="video-container rounded-4 shadow-lg overflow-hidden">
+                            <div class="ratio ratio-16x9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/XVJgXgywwt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                                </iframe>
+
+                            </div>
+                        </div>
+
+                        <!-- Circular Control Icons (Top Right) -->
+                        <div class="video-controls position-absolute top-0 end-0 p-3 d-flex gap-2">
+                            <button class="btn btn-circle bg-dark bg-opacity-75 text-white rounded-circle p-0" title="Watch later">
+                                <i class="bi bi-clock"></i>
+                            </button>
+                            <button class="btn btn-circle bg-dark bg-opacity-75 text-white rounded-circle p-0" title="Share">
+                                <i class="bi bi-share"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carousel Section -->
+    <section class="carousel-section py-5 mb-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-lg-5">
+                    <h2 class="display-5 fw-normal lh-sm">Built for developers<br>for the agent-first era</h2>
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                    <p class="text-muted">At Pixartual Studio, we believe innovation begins where imagination meets intelligence. Pixartual Studio is the world’s first high-tech visionary company — merging artistry, technology, and intelligence to create groundbreaking AI
+                        & SaaS solutions.</p>
+                </div>
+            </div>
+
+            <div id="developerCarousel" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="card border-0 rounded-4 h-100 bg-light">
+                                    <div class="card-body d-flex align-items-center justify-content-center gradient-bg-1">
+                                        <h3 class="text-white fw-normal">Frontend developer</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card border-0 rounded-4 h-100 bg-light">
+                                    <div class="card-body d-flex align-items-center justify-content-center gradient-bg-2">
+                                        <h3 class="text-white fw-normal">Backend developer</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <h5 class="fw-normal mb-2">Frontend developer</h5>
+                            <p class="text-muted small mb-3">Streamline UX development by leveraging browser-in-the-loop agents to automate repetitive tasks.</p>
+                            <a href="#" class="text-decoration-none small">View case <i
+                                    class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="card border-0 rounded-4 h-100 bg-light">
+                                    <div class="card-body d-flex align-items-center justify-content-center gradient-bg-3">
+                                        <h3 class="text-white fw-normal">Full-stack developer</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card border-0 rounded-4 h-100 bg-light">
+                                    <div class="card-body d-flex align-items-center justify-content-center gradient-bg-4">
+                                        <h3 class="text-white fw-normal">DevOps engineer</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <h5 class="fw-normal mb-2">Full-stack developer</h5>
+                            <p class="text-muted small mb-3">Build end-to-end applications faster with AI-powered code generation and testing.</p>
+                            <a href="#" class="text-decoration-none small">View case <i
+                                    class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="card border-0 rounded-4 h-100 bg-light">
+                                    <div class="card-body d-flex align-items-center justify-content-center gradient-bg-5">
+                                        <h3 class="text-dark fw-normal">Mobile developer</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card border-0 rounded-4 h-100 bg-light">
+                                    <div class="card-body d-flex align-items-center justify-content-center gradient-bg-6">
+                                        <h3 class="text-dark fw-normal">Data scientist</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <h5 class="fw-normal mb-2">Mobile developer</h5>
+                            <p class="text-muted small mb-3">Create cross-platform mobile apps with intelligent code suggestions and debugging.</p>
+                            <a href="#" class="text-decoration-none small">View case <i
+                                    class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-start gap-2 mt-4">
+                    <button class="btn btn-light border rounded-circle carousel-btn" type="button" data-bs-target="#developerCarousel" data-bs-slide="prev">
+                        <i class="bi bi-chevron-left"></i>
+                    </button>
+                    <button class="btn btn-light border rounded-circle carousel-btn" type="button" data-bs-target="#developerCarousel" data-bs-slide="next">
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audience Section -->
+    <section class="audience-section py-5 my-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 text-center">
+                    <div class="d-inline-block mb-3">
+                        <span class="badge rounded-pill bg-light text-dark border fw-normal px-3 py-2">Available at no
+                            charge</span>
+                    </div>
+                    <h2 class="display-5 fw-normal mb-0">For developers</h2>
+                    <h3 class="display-5 text-muted mb-4">Achieve new heights</h3>
+                    <a href="#" class="btn btn-dark btn-lg rounded-pill px-4">Download</a>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <div class="d-inline-block mb-3">
+                        <span class="badge rounded-pill bg-light text-dark border fw-normal px-3 py-2">Coming
+                            soon</span>
+                    </div>
+                    <h2 class="display-5 fw-normal mb-0">For organizations</h2>
+                    <h3 class="display-5 text-muted mb-4">Level up your entire team</h3>
+                    <a href="#" class="btn btn-light btn-lg rounded-pill px-4 border">Notify me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Integration Section -->
+    <section class="integration-section py-5 mb-5">
+        <div class="container">
+            <div class="integration-card bg-black text-white rounded-5 position-relative overflow-hidden" style="min-height: 500px;">
+                <iframe src="https://sagarxkewat.github.io/dragon/" class="bg-iframe position-absolute top-0 start-0 w-100 h-100" frameborder="0" title="Interactive Website"></iframe>
+                <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0) 100%); pointer-events: none;">
+                </div>
+
+                <!-- Content Overlay -->
+                <div class="position-relative z-1 p-5 h-100 d-flex flex-column justify-content-center" style="pointer-events: none;">
+                    <div class="col-lg-6" style="pointer-events: auto;">
+                        <h2 class="display-5 fw-normal mb-4">Download Pixartual <br>Atlas for Windows <span class="text-primary">|</span></h2>
+                        <div class="d-flex gap-3 flex-wrap">
+                            <a href="#" class="btn btn-light rounded-pill px-4 py-2 fw-medium">Download for x64</a>
+                            <a href="#" class="btn btn-dark border border-secondary rounded-pill px-4 py-2 fw-medium text-secondary">Download
+                                for ARM64</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h2 class="footer-branding display-1 fw-bold">Pixartual Studio</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h3 class="h5 fw-normal text-dark">Explore</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Design</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Development</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Intelligence</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Automation</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 offset-md-2 mb-4 mb-md-0">
+                    <h5 class="fw-bold mb-3">Products</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Atlas</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Development Tools</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Enterprise</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Templates</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2">
+                    <h5 class="fw-bold mb-3">Resources</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Blog</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Pricing</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Use Cases</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2">
+                    <h5 class="fw-bold mb-3">Legal</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Cookies</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Terms</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Privacy</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row mt-5 pt-5 border-top border-light">
+                <div class="col-md-6 d-flex align-items-center mb-3 mb-md-0">
+                    <span class="fw-bold fs-4 text-muted">Pixartual</span>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-inline text-md-end mb-0">
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-muted small">© 2025
+                                All Rights Reserved</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
